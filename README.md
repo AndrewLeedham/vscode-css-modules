@@ -16,5 +16,5 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 ## Release Notes
 See CHANGELOG.md for details.
 
-### 1.0.0
-* Initial Release
+### 1.0.1
+* Changed `package.json` repository field to fix icon error.
