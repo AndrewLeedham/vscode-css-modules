@@ -1,0 +1,47 @@
+{
+    "name": "vscode-css-modules",
+    "displayName": "CSS Modules Syntax Highlighter",
+    "description": "An extension to add CSS Modules syntax highlighting to VSCode.",
+    "version": "1.0.0",
+    "publisher": "andrewleedham",
+    "scripts": {
+        "push": "vsce publish"
+    },
+    "author": {
+        "name": "Andrew Leedham",
+        "url": "http://andrewleedham.me"
+    },
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "scopeName": "source.css.modules",
+                "path": "./syntaxes/css-modules.json",
+                "injectTo": ["source.css"]
+            }
+        ]
+    },
+    "repository": "https://github.com/AndrewLeedham/vscode-css-modules",
+    "keywords": [
+        "language support",
+        "vscode",
+        "extension",
+        "css",
+        "css-modules"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#FFFFFF"
+    },
+    "devDependencies": {
+        "vso-node-api": "^6.1.2-preview"
+    },
+    "dependencies": {
+        "vsce": "^1.36.1"
+    }
+}

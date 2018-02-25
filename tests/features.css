@@ -1,0 +1,25 @@
+@value male: #0000FF;
+@value female: purple; 
+@value namespace: "all";
+@value one from namespace;
+@value one, two from namespace;
+
+
+.dad{
+    composes: parent from "./family";
+    background: male;
+}
+
+.mum{
+    composes: parent from "family";
+    border: 1em solid female;
+}
+
+:global .child :local .mum.dad{
+    composes: dad;
+    composes: mum;
+}
+
+:global(.class #id){
+    background: female;
+}
