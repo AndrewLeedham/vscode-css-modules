@@ -16,5 +16,8 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 ## Release Notes
 See CHANGELOG.md for details.
 
+### 1.1.0
+* Added support for `.scss` and `.sass` files.
+
 ### 1.0.1
 * Changed `package.json` repository field to fix icon error.
