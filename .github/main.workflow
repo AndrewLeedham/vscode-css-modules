@@ -8,7 +8,10 @@ workflow "Publish" {
 
 action "yarn publish" {
   uses = "nuxt/actions-yarn@master"
-  secrets = ["GITHUB_TOKEN", "VSCE_TOKEN"]
+  secrets = [
+    "VSCE_TOKEN",
+    "GH_TOKEN",
+  ]
   args = "run publish"
   needs = "filter master branch"
 }
