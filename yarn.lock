@@ -1347,7 +1347,7 @@ deprecation@^1.0.1:
   resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-1.0.1.tgz#2df79b79005752180816b7b6e079cbd80490d711"
   integrity sha512-ccVHpE72+tcIKaGMql33x5MAjKQIZrk+3x2GbJ7TeraUCZWHoT+KSZpoC+JQFsUBlSTXUrBaGiF0j6zVTepPLg==
 
-detect-indent@~5.0.0:
+detect-indent@^5.0.0, detect-indent@~5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
   integrity sha1-OHHMCmoALow+Wzz38zYmRnXwa50=
@@ -4335,13 +4335,14 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release-vsce@^2.2.6:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/semantic-release-vsce/-/semantic-release-vsce-2.2.6.tgz#50d130520ca222931b87cbdcf86517058d1c8ff1"
-  integrity sha512-2r5Zip3CAQWcCvcD8eqsbPGVpWqWdTgVq8nqGnsV6F8EYAIFWgsMxUSVh0cydCgZL4x5UzLzVcUlC+Nj37xePw==
+semantic-release-vsce@^2.2.8:
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/semantic-release-vsce/-/semantic-release-vsce-2.2.8.tgz#571a1346992eaac2967b64ceace6f3e07e39de4e"
+  integrity sha512-rwAiTyn0aZI5peiJaclMRYq8/Fi/5r1xgAZoLlgceXvRzUeoZYPYJZVuOPoTpNtpp0AD+/3mrA0cziakPv8bMA==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     commander "^2.19.0"
+    detect-indent "^5.0.0"
     execa "^1.0.0"
     fs-extra "^7.0.1"
     node-fetch "^2.3.0"
