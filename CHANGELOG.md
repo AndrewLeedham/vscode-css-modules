@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/AndrewLeedham/vscode-css-modules/compare/v1.1.1...v1.1.2) (2019-03-26)
+
+
+### Bug Fixes
+
+* **package:** retain package.json formatting ([ecfa790](https://github.com/AndrewLeedham/vscode-css-modules/commit/ecfa790))
+
 ## [1.1.1](https://github.com/AndrewLeedham/vscode-css-modules/compare/v1.1.0...v1.1.1) (2019-03-17)
 
 
