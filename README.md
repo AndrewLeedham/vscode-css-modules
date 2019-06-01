@@ -9,7 +9,7 @@
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![license MIT][license-badge]][license-link]
 ![Languages CSS, SCSS, SASS][languages-badge]
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper-link]
+[![Greenkeeper badge][dependabot-badge]][dependabot-link]
 
 
 ![VSCode Window showing the plugin in action](/highlighting.png)
@@ -40,5 +40,5 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 [license-badge]: https://flat.badgen.net/badge/license/MIT/orange
 [license-link]: ./LICENSE
 [languages-badge]: https://flat.badgen.net/badge/languages/css,scss,sass/yellow?list=1
-[greenkeeper-badge]: https://badges.greenkeeper.io/AndrewLeedham/vscode-css-modules.svg?style=flat-square
-[greenkeeper-link]: https://greenkeeper.io/
+[dependabot-badge]: https://api.dependabot.com/badges/status?host=github&repo=AndrewLeedham/vscode-css-modules
+[dependabot-link]: https://dependabot.com
