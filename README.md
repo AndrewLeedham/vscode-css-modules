@@ -2,6 +2,7 @@
 
 > An extension to add [CSS Modules](https://github.com/css-modules/css-modules) syntax highlighting to VSCode.
 
+[![Travis CI Status][actions-badge]][actions-link]
 [![Visual Studio Marketplace][vscode-badge]][vscode-link]
 [![Installs][installs-badge]][installs-link]
 [![Downloads][downloads-badge]][downloads-link]
@@ -10,7 +11,6 @@
 [![license MIT][license-badge]][license-link]
 ![Languages CSS, SCSS, SASS][languages-badge]
 [![Greenkeeper badge][dependabot-badge]][dependabot-link]
-
 
 ![VSCode Window showing the plugin in action](/highlighting.png)
 
@@ -27,6 +27,8 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 ---
 [CHANGELOG](/CHANGELOG.md) | [LICENSE](/LICENSE)
 
+[actions-badge]: https://flat.badgen.net/github/status/AndrewLeedham/vscode-css-modules/master/Github%20Actions
+[actions-link]: https://github.com/AndrewLeedham/vscode-css-modules/actions
 [vscode-badge]: https://flat.badgen.net/vs-marketplace/v/andrewleedham.vscode-css-modules?color=cyan
 [vscode-link]: https://marketplace.visualstudio.com/items?itemName=andrewleedham.vscode-css-modules
 [installs-badge]: https://flat.badgen.net/vs-marketplace/i/andrewleedham.vscode-css-modules?color=blue
@@ -40,5 +42,5 @@ Currently this extension only supports syntax highlighting. So errors may be thr
 [license-badge]: https://flat.badgen.net/badge/license/MIT/orange
 [license-link]: ./LICENSE
 [languages-badge]: https://flat.badgen.net/badge/languages/css,scss,sass/yellow?list=1
-[dependabot-badge]: https://api.dependabot.com/badges/status?host=github&repo=AndrewLeedham/vscode-css-modules
+[dependabot-badge]: https://flat.badgen.net/dependabot/AndrewLeedham/vscode-css-modules?icon=dependabot
 [dependabot-link]: https://dependabot.com
