@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/AndrewLeedham/vscode-css-modules/compare/v1.1.2...v1.1.3) (2019-07-15)
+
+
+### Bug Fixes
+
+* bump version for security deps ([282ea0f](https://github.com/AndrewLeedham/vscode-css-modules/commit/282ea0f))
+
 ## [1.1.2](https://github.com/AndrewLeedham/vscode-css-modules/compare/v1.1.1...v1.1.2) (2019-03-26)
 
 
