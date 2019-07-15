@@ -12,7 +12,6 @@
 ![Languages CSS, SCSS, SASS][languages-badge]
 [![Greenkeeper badge][dependabot-badge]][dependabot-link]
 
-
 ![VSCode Window showing the plugin in action](/highlighting.png)
 
 ## Features
