@@ -1,3 +1,5 @@
+## [1.1.4](https://github.com/AndrewLeedham/vscode-css-modules/compare/v1.1.3...v1.1.4) (2019-08-20)
+
 ## [1.1.3](https://github.com/AndrewLeedham/vscode-css-modules/compare/v1.1.2...v1.1.3) (2019-07-15)
 
 
