@@ -23,6 +23,19 @@ Adds the following CSS Modules specific rule and attribute syntax highlighting o
 
 ## Known Issues
 Currently this extension only supports syntax highlighting. So errors may be thrown if you are using somesort of linter.
+A suggested work-around is to add the following settings to your workspace:
+```json
+{
+    "css.lint.validProperties": [
+        "composes"
+    ],
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.validProperties": [
+        "composes"
+    ],
+    "scss.lint.unknownAtRules": "ignore"
+}
+```
 
 ---
 [CHANGELOG](/CHANGELOG.md) | [LICENSE](/LICENSE)
