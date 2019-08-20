@@ -64,7 +64,24 @@
   },
   "release": {
     "plugins": [
-      "@semantic-release/commit-analyzer",
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules": [
+            {
+              "type": "chore",
+              "scope": "deps",
+              "subject": "/\\[security\\].*/",
+              "release": "patch"
+            }
+          ],
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "[security]"
+          ]
+        }
+      ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       "semantic-release-vsce",
@@ -73,15 +90,15 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/commit-analyzer": "^6.2.0",
+    "@semantic-release/commit-analyzer": "^6.3.0",
     "@semantic-release/git": "^7.0.16",
     "@semantic-release/github": "^5.4.2",
-    "@semantic-release/release-notes-generator": "^7.2.1",
-    "husky": "^3.0.0",
-    "semantic-release": "^15.13.18",
+    "@semantic-release/release-notes-generator": "^7.3.0",
+    "husky": "^3.0.4",
+    "semantic-release": "^15.13.21",
     "semantic-release-vsce": "^2.2.8"
   },
   "dependencies": {}
