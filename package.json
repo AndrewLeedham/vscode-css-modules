@@ -74,6 +74,11 @@
               "scope": "deps",
               "subject": "/\\[security\\].*/",
               "release": "patch"
+            },
+            {
+              "type": "docs",
+              "scope": "readme",
+              "release": "patch"
             }
           ],
           "noteKeywords": [
