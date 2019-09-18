@@ -1,4 +1,4 @@
-name: Deploy to NPM
+name: Deploy to marketplace
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
           node-version: 12
       - run: yarn install
 
-  publish-npm:
+  deploy-marketplace:
     needs: verify
     runs-on: ubuntu-latest
     steps:
@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 12
       - run: yarn install
-      - run: yarn publish
+      - run: yarn deploy
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
