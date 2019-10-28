@@ -101,7 +101,7 @@
     "@semantic-release/commit-analyzer": "^6.3.0",
     "@semantic-release/git": "^7.0.16",
     "@semantic-release/github": "^5.5.4",
-    "@semantic-release/release-notes-generator": "^7.3.0",
+    "@semantic-release/release-notes-generator": "^7.3.2",
     "husky": "^3.0.9",
     "semantic-release": "^16.0.0-beta.26",
     "semantic-release-vsce": "^2.2.8"
