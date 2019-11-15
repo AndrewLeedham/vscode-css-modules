@@ -4877,10 +4877,10 @@ semantic-release-vsce@^2.2.8:
     semver "^5.6.0"
     vsce "^1.57.0"
 
-semantic-release@^16.0.0-beta.29:
-  version "16.0.0-beta.29"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-16.0.0-beta.29.tgz#4aba7c4b12c6070c5bf3f27a6191f520d704a032"
-  integrity sha512-xjLU9cSUSsMcaGQcEeArqaoFRXsL508LpBgiyMUS6fooggHUDi51bs/DKjDqYyk5621nJUqFczPss9oZwUypKA==
+semantic-release@^16.0.0-beta.31:
+  version "16.0.0-beta.31"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-16.0.0-beta.31.tgz#ba47bc4d5d527b66f63a80b8a677e7d307d5eb3c"
+  integrity sha512-wbIkc+bl0h62kln9uzZ9WUi9c+r1/pq+vUUyEjB80dGVox0l6SQWMp5w9OGUhbM0QE9UuSpclUrvtwQ6U72oFQ==
   dependencies:
     "@semantic-release/commit-analyzer" "7.0.0-beta.4"
     "@semantic-release/error" "^2.2.0"
