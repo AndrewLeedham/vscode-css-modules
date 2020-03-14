@@ -1,4 +1,6 @@
-# vscode-css-modules
+# Moved to monorepo: [AndrewLeedham/vscode-extensions](https://github.com/AndrewLeedham/extensions)
+
+# ~~vscode-css-modules~~
 
 > An extension to add [CSS Modules](https://github.com/css-modules/css-modules) syntax highlighting to VSCode.
 
