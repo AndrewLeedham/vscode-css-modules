@@ -1,4 +1,4 @@
-# Moved to monorepo: [AndrewLeedham/vscode-extensions](https://github.com/AndrewLeedham/extensions)
+# Moved to monorepo: [AndrewLeedham/vscode-extensions](https://github.com/AndrewLeedham/vscode-extensions)
 
 # ~~vscode-css-modules~~
 
